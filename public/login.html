@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <title>Minuite Pe Blog — Digital Insights & Tech Trends</title>
-  <meta name="description" content="Read the latest insights on digital marketing, SEO, AI automation, and web design from the experts at Minuite Pe." />
+  <title>Sign In | Minuite Pe</title>
+  <meta name="description" content="Sign in to your Minuite Pe account to manage orders and digital services." />
   
   <link rel="stylesheet" href="css/style.css" />
   
@@ -58,40 +58,50 @@
   </div>
 </header>
 
-<main id="main-content" style="min-height: 80vh; display:flex; align-items:center; justify-content:center; padding: 4rem 1rem; background:var(--brand-off-white);">
-  
-  <div class="card animate-in" style="width: 100%; max-width: 450px; padding: 3rem 2rem; border-radius: var(--radius-xl); box-shadow: var(--shadow-xl);">
-    <div style="text-align:center; margin-bottom: 2rem;">
-      <h1 style="font-size: var(--fs-2xl); font-family: var(--font-heading); margin-bottom: 0.5rem; color: var(--brand-primary);">Welcome Back</h1>
-      <p style="color: var(--brand-gray); font-size: var(--fs-sm);">Sign in to access your Minuite Pe account.</p>
-    </div>
+<main id="main-content" class="auth-page">
+  <div class="auth-shell animate-in">
+    <aside class="auth-brief auth-brief--login">
+      <span class="auth-kicker">Your night, organised</span>
+      <h1>Welcome back.</h1>
+      <p>One account for late-night orders, project updates, and everything Minuite Pe.</p>
+      <ul class="auth-benefits">
+        <li><span aria-hidden="true">01</span> Track your food orders</li>
+        <li><span aria-hidden="true">02</span> Follow digital projects</li>
+        <li><span aria-hidden="true">03</span> Keep your details in one place</li>
+      </ul>
+    </aside>
 
-    <form id="loginForm" style="display:flex; flex-direction:column; gap: 1.5rem;">
-      <div class="form-group">
-        <label for="email" class="form-label">Email Address</label>
-        <input type="email" id="email" name="email" class="form-input" placeholder="you@example.com" required>
+    <section class="auth-card" aria-labelledby="login-title">
+      <div class="auth-card__header">
+        <span class="auth-card__eyebrow">Account access</span>
+        <h2 id="login-title">Sign in</h2>
+        <p>Enter your details to continue.</p>
       </div>
 
-      <div class="form-group">
-        <div style="display:flex; justify-content:space-between; align-items:center;">
-          <label for="password" class="form-label">Password</label>
-          <a href="#" style="font-size:var(--fs-xs); color:var(--digital-primary); text-decoration:none; font-weight:600;">Forgot password?</a>
+      <form id="loginForm" class="auth-form" data-auth-form="login" novalidate>
+        <div class="form-group">
+          <label for="login-email" class="form-label">Email address</label>
+          <input type="email" id="login-email" name="email" class="form-input" placeholder="you@example.com" autocomplete="email" required>
         </div>
-        <input type="password" id="password" name="password" class="form-input" placeholder="••••••••" required>
-      </div>
 
-      <button type="submit" class="btn btn--digital btn--lg" style="width: 100%; justify-content:center; margin-top: 1rem;">
-        Sign In
-      </button>
-    </form>
+        <div class="form-group">
+          <div class="form-label-row">
+            <label for="login-password" class="form-label">Password</label>
+            <a href="contact.html" class="auth-inline-link">Need help?</a>
+          </div>
+          <div class="password-field">
+            <input type="password" id="login-password" name="password" class="form-input" placeholder="Enter your password" autocomplete="current-password" required>
+            <button type="button" class="password-toggle" data-password-toggle="login-password" aria-label="Show password">Show</button>
+          </div>
+        </div>
 
-    <div style="margin-top: 2rem; text-align:center;">
-      <p style="font-size: var(--fs-sm); color: var(--brand-gray);">
-        Don't have an account? <a href="signup.html" style="color:var(--digital-primary); font-weight:600; text-decoration:none;">Sign up</a>
-      </p>
-    </div>
+        <p class="auth-form__status" data-auth-status role="status" aria-live="polite"></p>
+        <button type="submit" class="btn btn--digital btn--lg auth-submit">Sign in <span aria-hidden="true">→</span></button>
+      </form>
+
+      <p class="auth-switch">New to Minuite Pe? <a href="signup.html">Create an account</a></p>
+    </section>
   </div>
-
 </main>
 
 <footer class="footer">
@@ -120,6 +130,7 @@
 </footer>
 
 <script src="js/main.js"></script>
+<script src="js/auth.js"></script>
 </body>
 </html>
 

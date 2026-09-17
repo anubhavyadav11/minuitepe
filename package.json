@@ -1,0 +1,22 @@
+{
+  "name": "minuitepe",
+  "version": "1.0.0",
+  "description": "> **Two divisions. One brand.** Night-time food delivery (8 PM–4 AM) + a full-service digital agency.",
+  "main": "sw.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}

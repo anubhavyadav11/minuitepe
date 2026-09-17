@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- ── Primary SEO ── -->
+  <title>Minuite Pe Digital — Branding, Web Design, SEO & Google Maps Agency</title>
+  <meta name="description" content="Minuite Pe Digital: branding, website design & development, on-page/off-page SEO, and Google Maps Local SEO. Rank higher, get found, grow your business. Free website audit available." />
+  <meta name="keywords" content="digital agency, branding agency, web design, SEO agency, Google Maps SEO, local SEO, GMB optimization, website development India" />
+  <meta name="author" content="Minuite Pe" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.minuitepe.com/digital.html" />
+
+  <!-- ── Open Graph ── -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.minuitepe.com/digital.html" />
+  <meta property="og:title" content="Minuite Pe Digital — Branding, Web Design & SEO Agency" />
+  <meta property="og:description" content="Build your brand. Rank higher. Get found. Full-service digital agency — branding, websites, SEO, and Google Maps optimization." />
+  <meta property="og:image" content="https://www.minuitepe.com/images/og-digital.jpg" />
+
+  <!-- ── Twitter Card ── -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Minuite Pe Digital — Branding, Web & SEO Agency" />
+  <meta name="twitter:description" content="Rank #1 on Google Maps in 30 days. Full branding, web design & SEO from Minuite Pe Digital." />
+
+  <!-- ── PWA ── -->
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#4361ee" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Minuite Pe Digital" />
+
+  <!-- ── Fonts ── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- ── Stylesheet ── -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- ── Schema: Professional Service ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": "https://www.minuitepe.com/digital.html#digital",
+    "name": "Minuite Pe Digital",
+    "description": "Full-service digital agency offering branding, website design and development, on-page and off-page SEO, and Google Maps / Local SEO optimization.",
+    "url": "https://www.minuitepe.com/digital.html",
+    "telephone": "+91-XXXXXXXXXX",
+    "email": "digital@minuitepe.com",
+    "openingHours": "Mo-Fr 09:00-18:00",
+    "priceRange": "₹₹₹",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Digital Agency Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Branding & Logo Design" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Design & Development" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Search Engine Optimization (SEO)" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Google Maps / Local SEO" } }
+      ]
+    },
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Minuite Pe",
+      "url": "https://www.minuitepe.com"
+    }
+  }
+  </script>
+</head>
+
+<body>
+
+<!-- ════════════════════════════════════════════════
+     NAVBAR
+════════════════════════════════════════════════ -->
+<header role="banner">
+  <nav class="navbar" id="navbar" aria-label="Main navigation">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo" aria-label="Minuite Pe Home">
+        <div class="navbar__logo-icon" aria-hidden="true">⚡</div>
+        <span class="navbar__logo-text">Minuite<span>Pe</span></span>
+      </a>
+
+      <ul class="navbar__nav" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li class="navbar__dropdown" role="listitem">
+          <button class="navbar__dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Services
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="navbar__dropdown-menu" role="menu">
+            <a href="food.html" role="menuitem"><span class="drop-icon drop-icon--food">🍔</span>Food Delivery</a>
+            <a href="digital.html" role="menuitem"><span class="drop-icon drop-icon--digital">💻</span>Digital Services</a>
+          </div>
+        </li>
+        <li><a href="food.html">Food Delivery</a></li>
+        <li><a href="digital.html" class="active" aria-current="page">Digital Agency</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li><li><a href="login.html" style="font-weight:600;color:var(--digital-primary)">Login</a></li>
+      </ul>
+
+      <div class="navbar__cta">
+        <a href="food.html" class="btn btn--food btn--sm">Order Food 🍕</a>
+        <a href="#audit" class="btn btn--digital btn--sm">Free Audit 🚀</a>
+      </div>
+
+      <button class="navbar__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="navbar__mobile" id="mobileNav" role="navigation" aria-label="Mobile navigation">
+    <a href="index.html">🏠 Home</a>
+    <a href="food.html">🍔 Food Delivery</a>
+    <a href="digital.html">💻 Digital Agency</a>
+    <div class="navbar__mobile-divider"></div>
+    <a href="about.html">👥 About Us</a>
+    <a href="blog.html">📝 Blog</a>
+    <a href="contact.html">📞 Contact</a>
+    <div class="navbar__mobile-divider"></div>
+    <a href="#audit" class="btn btn--digital" style="margin-top:0.5rem">Get Free Audit 🚀</a>
+  </div>
+</header>
+
+<main id="main-content">
+
+<!-- ════════════════════════════════════════════════
+     HERO — Digital
+════════════════════════════════════════════════ -->
+<section class="hero hero--clean" aria-labelledby="digital-hero-heading" style="padding-top: calc(var(--navbar-height) + 4rem); min-height: 70vh;">
+  <div class="hero__bg">
+    <!-- Clean background -->
+  </div>
+
+  <div class="container hero__content">
+    <div style="max-width:740px">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>›</span>
+        <span>Digital Agency</span>
+      </div>
+
+      <span class="section-label section-label--digital animate-in">💻 Minuite Pe Digital</span>
+
+      <h1 id="digital-hero-heading" class="animate-in animate-delay-1" style="font-size:var(--fs-hero);margin-block:1rem 1.5rem">
+        Build Your Brand.<br>
+        <span style="color:var(--digital-primary)">Rank Higher.</span><br>
+        Get Found.
+      </h1>
+
+      <p class="animate-in animate-delay-2" style="font-size:var(--fs-xl);color:var(--brand-gray);max-width:540px;line-height:1.7;margin-bottom:2.5rem">
+        We craft brands, build websites, and push your business to the top of Google Search and Google Maps — so your customers find you, not your competitors.
+      </p>
+
+      <div class="flex flex--gap animate-in animate-delay-3" style="flex-wrap:wrap;margin-bottom:3rem">
+        <a href="#audit" class="btn btn--digital btn--xl">Get Free Audit</a>
+        <a href="#services" class="btn btn--outline btn--xl">Our Services ↓</a>
+      </div>
+
+      <!-- Trust signals -->
+      <div class="animate-in animate-delay-4" style="display:flex;gap:2rem;flex-wrap:wrap">
+        <div style="display:flex;align-items:center;gap:0.5rem">
+          <svg style="width:24px;height:24px;color:var(--digital-primary)" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+          <span style="color:var(--brand-gray);font-size:var(--fs-sm)">150+ businesses scaled</span>
+        </div>
+        <div style="width:1px;height:20px;background:var(--brand-light-gray)"></div>
+        <div style="display:flex;align-items:center;gap:0.5rem">
+          <svg style="width:24px;height:24px;color:var(--digital-primary)" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+          <span style="color:var(--brand-gray);font-size:var(--fs-sm)">#1 GMaps rankings in 30 days</span>
+        </div>
+        <div style="width:1px;height:20px;background:var(--brand-light-gray)"></div>
+        <div style="display:flex;align-items:center;gap:0.5rem">
+          <svg style="width:24px;height:24px;color:var(--digital-primary)" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+          <span style="color:var(--brand-gray);font-size:var(--fs-sm)">4.9/5 client satisfaction</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     SERVICES GRID
+════════════════════════════════════════════════ -->
+<section class="section" id="services" aria-labelledby="services-heading">
+  <div class="container">
+    <div class="section-header section-header--center">
+      <span class="section-label section-label--digital animate-in">What We Offer</span>
+      <h2 id="services-heading" class="section-title animate-in animate-delay-1">Complete Digital Solutions</h2>
+      <p class="section-subtitle section-subtitle--center animate-in animate-delay-2">
+        Everything your business needs to establish a powerful online presence, from first impression to first-page rankings.
+      </p>
+    </div>
+
+    <div class="grid grid--2" style="gap:1.5rem">
+
+      <!-- Branding -->
+      <article class="card card-hover-advanced animate-in" style="border-top:3px solid var(--digital-primary)">
+        <div class="card__body">
+          <div class="icon-box icon-box--digital" style="font-size:1.8rem" aria-hidden="true">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="width:28px;height:28px;"><path stroke-linecap="round" stroke-linejoin="round" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>
+          </div>
+          <h3 style="font-size:var(--fs-xl);margin-bottom:0.75rem">Branding & Logo Design</h3>
+          <p style="font-size:var(--fs-sm);color:var(--brand-gray);line-height:1.75;margin-bottom:1.5rem">
+            We create distinctive brand identities that make your business unforgettable. Logo design, brand guidelines, colour palettes, typography, and all the visual assets you need.
+          </p>
+          <ul class="mt-auto" style="display:flex;flex-direction:column;gap:0.5rem">
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:var(--digital-primary)">✓</span> Logo design (3 concepts + revisions)</li>
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:var(--digital-primary)">✓</span> Brand identity & guidelines</li>
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:var(--digital-primary)">✓</span> Social media kit & banners</li>
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:var(--digital-primary)">✓</span> Business card & stationery</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Web Design -->
+      <article class="card card-hover-advanced animate-in animate-delay-1" style="border-top:3px solid var(--digital-secondary)">
+        <div class="card__body">
+          <div class="icon-box icon-box--digital" style="font-size:1.8rem" aria-hidden="true">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="width:28px;height:28px;"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+          </div>
+          <h3 style="font-size:var(--fs-xl);margin-bottom:0.75rem">Website Design & Development</h3>
+          <p style="font-size:var(--fs-sm);color:var(--brand-gray);line-height:1.75;margin-bottom:1.5rem">
+            Fast, modern, mobile-first websites that convert visitors into customers. From landing pages to full business websites — built for performance and SEO.
+          </p>
+          <ul class="mt-auto" style="display:flex;flex-direction:column;gap:0.5rem">
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:var(--digital-primary)">✓</span> Mobile-first responsive design</li>
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:var(--digital-primary)">✓</span> SEO-ready HTML structure</li>
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:var(--digital-primary)">✓</span> Speed optimised (90+ PageSpeed)</li>
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:var(--digital-primary)">✓</span> CMS integration (if needed)</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- SEO -->
+      <article class="card card-hover-advanced animate-in animate-delay-1" style="border-top:3px solid var(--digital-primary)">
+        <div class="card__body">
+          <div class="icon-box icon-box--digital" style="font-size:1.8rem" aria-hidden="true">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="width:28px;height:28px;"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+          </div>
+          <h3 style="font-size:var(--fs-xl);margin-bottom:0.75rem">SEO — On-Page & Off-Page</h3>
+          <p style="font-size:var(--fs-sm);color:var(--brand-gray);line-height:1.75;margin-bottom:1.5rem">
+            Rank higher on Google with a data-driven SEO strategy. We handle everything from keyword research to content optimisation and quality backlink building.
+          </p>
+          <ul class="mt-auto" style="display:flex;flex-direction:column;gap:0.5rem">
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:var(--digital-primary)">✓</span> Keyword research & strategy</li>
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:var(--digital-primary)">✓</span> On-page optimisation</li>
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:var(--digital-primary)">✓</span> Quality backlink building</li>
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:var(--digital-primary)">✓</span> Monthly ranking reports</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Google Maps -->
+      <article class="card card-hover-advanced animate-in animate-delay-2" style="border-top:3px solid var(--digital-secondary)">
+        <div class="card__body">
+          <div class="icon-box icon-box--digital" style="font-size:1.8rem" aria-hidden="true">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="width:28px;height:28px;"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+          </div>
+          <h3 style="font-size:var(--fs-xl);margin-bottom:0.75rem">Google Maps Optimisation</h3>
+          <p style="font-size:var(--fs-sm);color:var(--brand-gray);line-height:1.75;margin-bottom:1.5rem">
+            Dominate the Google Maps 3-pack for your local area. Full GMB profile optimisation, local citations, review strategy, and geo-targeted SEO.
+          </p>
+          <ul class="mt-auto" style="display:flex;flex-direction:column;gap:0.5rem">
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:#10b981">✓</span> Google Business Profile optimisation</li>
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:#10b981">✓</span> Local citation building (100+)</li>
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:#10b981">✓</span> Review acquisition strategy</li>
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:#10b981">✓</span> Maps #1 ranking in 30–60 days</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- AI Automation -->
+      <article class="card card-hover-advanced animate-in" style="border-top:3px solid var(--digital-primary)">
+        <div class="card__body">
+          <div class="icon-box icon-box--digital" style="font-size:1.8rem" aria-hidden="true">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="width:28px;height:28px;"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+          </div>
+          <h3 style="font-size:var(--fs-xl);margin-bottom:0.75rem">AI Agents & Automation</h3>
+          <p style="font-size:var(--fs-sm);color:var(--brand-gray);line-height:1.75;margin-bottom:1.5rem">
+            Supercharge your business with custom AI solutions. Automate customer support, lead generation, and internal workflows with cutting-edge AI agents.
+          </p>
+          <ul class="mt-auto" style="display:flex;flex-direction:column;gap:0.5rem">
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:#7209b7">✓</span> Custom AI Chatbots (GPT-4 powered)</li>
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:#7209b7">✓</span> Automated Lead Qualification</li>
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:#7209b7">✓</span> 24/7 Customer Support Automation</li>
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:#7209b7">✓</span> Workflow & CRM Integration</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- WhatsApp Marketing -->
+      <article class="card card-hover-advanced animate-in animate-delay-1" style="border-top:3px solid var(--digital-secondary)">
+        <div class="card__body">
+          <div class="icon-box icon-box--digital" style="font-size:1.8rem" aria-hidden="true">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="width:28px;height:28px;"><path stroke-linecap="round" stroke-linejoin="round" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg>
+          </div>
+          <h3 style="font-size:var(--fs-xl);margin-bottom:0.75rem">WhatsApp API & Marketing</h3>
+          <p style="font-size:var(--fs-sm);color:var(--brand-gray);line-height:1.75;margin-bottom:1.5rem">
+            Reach your customers where they spend their time. Automated WhatsApp marketing, bulk broadcasting, and interactive WhatsApp chatbots.
+          </p>
+          <ul class="mt-auto" style="display:flex;flex-direction:column;gap:0.5rem">
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:#25D366">✓</span> WhatsApp API Integration</li>
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:#25D366">✓</span> Automated Order Notifications</li>
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:#25D366">✓</span> Broadcast Campaigns (High Open Rates)</li>
+            <li style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm)"><span style="color:#25D366">✓</span> Interactive Bot Flows</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     PORTFOLIO / CASE STUDIES
+════════════════════════════════════════════════ -->
+<section class="section section--digital-light" id="portfolio" aria-labelledby="portfolio-heading">
+  <div class="container">
+    <div class="section-header section-header--center">
+      <span class="section-label section-label--digital animate-in">Our Work</span>
+      <h2 id="portfolio-heading" class="section-title animate-in animate-delay-1">Real Results, Real Businesses</h2>
+      <p class="section-subtitle section-subtitle--center animate-in animate-delay-2">
+        We let the numbers do the talking.
+      </p>
+    </div>
+
+    <div class="grid grid--3" style="gap:1.5rem">
+
+      <!-- Case 1 -->
+      <article class="card animate-in" style="overflow:visible;position:relative">
+        <div style="background:var(--digital-gradient);height:8px;border-radius:var(--radius-lg) var(--radius-lg) 0 0"></div>
+        <div class="card__body">
+          <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem">
+            <div style="width:44px;height:44px;background:var(--digital-light);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;font-size:1.3rem" aria-hidden="true">🦷</div>
+            <div>
+              <div style="font-weight:700;font-size:var(--fs-base)">Sharma Dental Clinic</div>
+              <div style="font-size:var(--fs-xs);color:var(--brand-gray)">Healthcare, Delhi</div>
+            </div>
+          </div>
+          <p style="font-size:var(--fs-sm);color:var(--brand-gray);margin-bottom:1.5rem;line-height:1.7">Full website redesign + Google Maps SEO. Their GMB profile was barely visible; now they're the first result.</p>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem">
+            <div style="background:var(--digital-light);border-radius:var(--radius-sm);padding:0.75rem;text-align:center">
+              <div style="font-size:var(--fs-xl);font-weight:800;color:var(--digital-primary)">#1</div>
+              <div style="font-size:var(--fs-xs);color:var(--brand-gray)">Google Maps rank</div>
+            </div>
+            <div style="background:var(--digital-light);border-radius:var(--radius-sm);padding:0.75rem;text-align:center">
+              <div style="font-size:var(--fs-xl);font-weight:800;color:var(--digital-primary)">30d</div>
+              <div style="font-size:var(--fs-xs);color:var(--brand-gray)">To achieve it</div>
+            </div>
+            <div style="background:var(--digital-light);border-radius:var(--radius-sm);padding:0.75rem;text-align:center">
+              <div style="font-size:var(--fs-xl);font-weight:800;color:var(--digital-primary)">3×</div>
+              <div style="font-size:var(--fs-xs);color:var(--brand-gray)">More calls/week</div>
+            </div>
+            <div style="background:var(--digital-light);border-radius:var(--radius-sm);padding:0.75rem;text-align:center">
+              <div style="font-size:var(--fs-xl);font-weight:800;color:var(--digital-primary)">↑280%</div>
+              <div style="font-size:var(--fs-xs);color:var(--brand-gray)">Profile views</div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Case 2 -->
+      <article class="card animate-in animate-delay-1">
+        <div style="background:linear-gradient(90deg,var(--food-primary),var(--food-secondary));height:8px;border-radius:var(--radius-lg) var(--radius-lg) 0 0"></div>
+        <div class="card__body">
+          <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem">
+            <div style="width:44px;height:44px;background:var(--food-light);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;font-size:1.3rem" aria-hidden="true">🛒</div>
+            <div>
+              <div style="font-weight:700;font-size:var(--fs-base)">Gupta Kirana Store</div>
+              <div style="font-size:var(--fs-xs);color:var(--brand-gray)">Retail, Noida</div>
+            </div>
+          </div>
+          <p style="font-size:var(--fs-sm);color:var(--brand-gray);margin-bottom:1.5rem;line-height:1.7">Complete branding overhaul + local SEO. New logo, website, and dominating local search for grocery-related keywords.</p>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem">
+            <div style="background:var(--food-light);border-radius:var(--radius-sm);padding:0.75rem;text-align:center">
+              <div style="font-size:var(--fs-xl);font-weight:800;color:var(--food-primary)">Top 3</div>
+              <div style="font-size:var(--fs-xs);color:var(--brand-gray)">Local pack rank</div>
+            </div>
+            <div style="background:var(--food-light);border-radius:var(--radius-sm);padding:0.75rem;text-align:center">
+              <div style="font-size:var(--fs-xl);font-weight:800;color:var(--food-primary)">45d</div>
+              <div style="font-size:var(--fs-xs);color:var(--brand-gray)">To deliver</div>
+            </div>
+            <div style="background:var(--food-light);border-radius:var(--radius-sm);padding:0.75rem;text-align:center">
+              <div style="font-size:var(--fs-xl);font-weight:800;color:var(--food-primary)">↑60%</div>
+              <div style="font-size:var(--fs-xs);color:var(--brand-gray)">Foot traffic</div>
+            </div>
+            <div style="background:var(--food-light);border-radius:var(--radius-sm);padding:0.75rem;text-align:center">
+              <div style="font-size:var(--fs-xl);font-weight:800;color:var(--food-primary)">4.8★</div>
+              <div style="font-size:var(--fs-xs);color:var(--brand-gray)">GMB rating</div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Case 3 -->
+      <article class="card animate-in animate-delay-2">
+        <div style="background:linear-gradient(90deg,#10b981,#059669);height:8px;border-radius:var(--radius-lg) var(--radius-lg) 0 0"></div>
+        <div class="card__body">
+          <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem">
+            <div style="width:44px;height:44px;background:#d1fae5;border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;font-size:1.3rem" aria-hidden="true">⚖️</div>
+            <div>
+              <div style="font-weight:700;font-size:var(--fs-base)">Verma Law Associates</div>
+              <div style="font-size:var(--fs-xs);color:var(--brand-gray)">Legal Services, Mumbai</div>
+            </div>
+          </div>
+          <p style="font-size:var(--fs-sm);color:var(--brand-gray);margin-bottom:1.5rem;line-height:1.7">New website + on-page SEO + GMB optimisation. From zero online presence to consistent enquiries from Google.</p>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem">
+            <div style="background:#d1fae5;border-radius:var(--radius-sm);padding:0.75rem;text-align:center">
+              <div style="font-size:var(--fs-xl);font-weight:800;color:#059669">Page 1</div>
+              <div style="font-size:var(--fs-xs);color:var(--brand-gray)">Google ranking</div>
+            </div>
+            <div style="background:#d1fae5;border-radius:var(--radius-sm);padding:0.75rem;text-align:center">
+              <div style="font-size:var(--fs-xl);font-weight:800;color:#059669">20+</div>
+              <div style="font-size:var(--fs-xs);color:var(--brand-gray)">Monthly leads</div>
+            </div>
+            <div style="background:#d1fae5;border-radius:var(--radius-sm);padding:0.75rem;text-align:center">
+              <div style="font-size:var(--fs-xl);font-weight:800;color:#059669">↑400%</div>
+              <div style="font-size:var(--fs-xs);color:var(--brand-gray)">Organic traffic</div>
+            </div>
+            <div style="background:#d1fae5;border-radius:var(--radius-sm);padding:0.75rem;text-align:center">
+              <div style="font-size:var(--fs-xl);font-weight:800;color:#059669">60d</div>
+              <div style="font-size:var(--fs-xs);color:var(--brand-gray)">Full turnaround</div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     PROCESS TIMELINE
+════════════════════════════════════════════════ -->
+<section class="section section--dark" aria-labelledby="process-heading">
+  <div class="container">
+    <div class="section-header section-header--center">
+      <span class="section-label section-label--white animate-in">Our Process</span>
+      <h2 id="process-heading" class="section-title section-title--white animate-in animate-delay-1">From Strategy to Results</h2>
+      <p class="section-subtitle section-subtitle--white section-subtitle--center animate-in animate-delay-2">
+        A proven 4-step process that delivers measurable outcomes, not just activities.
+      </p>
+    </div>
+
+    <div class="steps steps--connected animate-in" role="list">
+      <div class="step" role="listitem">
+        <div class="step__number step__number--digital" aria-hidden="true">1</div>
+        <div class="step__icon" aria-hidden="true">☎️</div>
+        <h3 class="step__title" style="color:white">Consultation</h3>
+        <p class="step__desc">Free call to understand your business, goals, competition, and current online presence. We listen first.</p>
+      </div>
+      <div class="step" role="listitem">
+        <div class="step__number step__number--digital" aria-hidden="true">2</div>
+        <div class="step__icon" aria-hidden="true">🗺️</div>
+        <h3 class="step__title" style="color:white">Strategy</h3>
+        <p class="step__desc">Custom roadmap built around your specific market, keywords, and competitors. No cookie-cutter plans.</p>
+      </div>
+      <div class="step" role="listitem">
+        <div class="step__number step__number--digital" aria-hidden="true">3</div>
+        <div class="step__icon" aria-hidden="true">⚙️</div>
+        <h3 class="step__title" style="color:white">Execution</h3>
+        <p class="step__desc">We build, optimise, and launch. Transparent timelines, regular updates, and no missed deadlines.</p>
+      </div>
+      <div class="step" role="listitem">
+        <div class="step__number step__number--digital" aria-hidden="true">4</div>
+        <div class="step__icon" aria-hidden="true">📊</div>
+        <h3 class="step__title" style="color:white">Results & Report</h3>
+        <p class="step__desc">Monthly ranking reports, traffic dashboards, and clear ROI data. You know exactly what you're getting.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     PRICING
+════════════════════════════════════════════════ -->
+<section class="section" id="pricing" aria-labelledby="pricing-heading">
+  <div class="container">
+    <div class="section-header section-header--center">
+      <span class="section-label section-label--digital animate-in">Transparent Pricing</span>
+      <h2 id="pricing-heading" class="section-title animate-in animate-delay-1">Simple, Honest Packages</h2>
+      <p class="section-subtitle section-subtitle--center animate-in animate-delay-2">
+        No hidden fees. No lock-in contracts. Just results.
+      </p>
+    </div>
+
+    <div class="grid grid--3" style="gap:1.5rem;align-items:start">
+
+      <!-- Basic -->
+      <div class="pricing-card animate-in">
+        <div class="pricing-card__tier">Basic</div>
+        <div class="pricing-card__price"><sup>₹</sup>9,999</div>
+        <div class="pricing-card__period">one-time setup</div>
+        <ul class="pricing-card__features">
+          <li class="pricing-card__feature"><span class="check">✓</span> Logo design (2 concepts)</li>
+          <li class="pricing-card__feature"><span class="check">✓</span> 3-page website</li>
+          <li class="pricing-card__feature"><span class="check">✓</span> GMB profile setup</li>
+          <li class="pricing-card__feature"><span class="check">✓</span> Basic on-page SEO</li>
+          <li class="pricing-card__feature"><span class="check">✓</span> 1 month support</li>
+          <li class="pricing-card__feature"><span class="cross">✗</span> Off-page SEO / backlinks</li>
+          <li class="pricing-card__feature"><span class="cross">✗</span> Monthly reports</li>
+        </ul>
+        <a href="#audit" class="btn btn--outline-digital" style="width:100%;justify-content:center">Get Started →</a>
+      </div>
+
+      <!-- Growth (featured) -->
+      <div class="pricing-card pricing-card--featured animate-in animate-delay-1">
+        <div class="pricing-card__tier" style="color:var(--digital-primary)">Growth</div>
+        <div class="pricing-card__price" style="color:var(--digital-primary)"><sup>₹</sup>24,999</div>
+        <div class="pricing-card__period">one-time + ₹4,999/mo SEO retainer</div>
+        <ul class="pricing-card__features">
+          <li class="pricing-card__feature"><span class="check">✓</span> Logo + full brand identity</li>
+          <li class="pricing-card__feature"><span class="check">✓</span> 5–8 page website</li>
+          <li class="pricing-card__feature"><span class="check">✓</span> Full GMB optimisation</li>
+          <li class="pricing-card__feature"><span class="check">✓</span> On-page + off-page SEO</li>
+          <li class="pricing-card__feature"><span class="check">✓</span> 50 local citations</li>
+          <li class="pricing-card__feature"><span class="check">✓</span> Monthly ranking reports</li>
+          <li class="pricing-card__feature"><span class="check">✓</span> 3 months support</li>
+        </ul>
+        <a href="#audit" class="btn btn--digital" style="width:100%;justify-content:center">Get Started →</a>
+      </div>
+
+      <!-- Premium -->
+      <div class="pricing-card animate-in animate-delay-2">
+        <div class="pricing-card__tier">Premium</div>
+        <div class="pricing-card__price"><sup>₹</sup>49,999</div>
+        <div class="pricing-card__period">one-time + ₹9,999/mo SEO retainer</div>
+        <ul class="pricing-card__features">
+          <li class="pricing-card__feature"><span class="check">✓</span> Complete brand overhaul</li>
+          <li class="pricing-card__feature"><span class="check">✓</span> Custom website (unlimited pages)</li>
+          <li class="pricing-card__feature"><span class="check">✓</span> Aggressive GMB ranking campaign</li>
+          <li class="pricing-card__feature"><span class="check">✓</span> Full SEO strategy</li>
+          <li class="pricing-card__feature"><span class="check">✓</span> 100+ local citations</li>
+          <li class="pricing-card__feature"><span class="check">✓</span> Weekly reports + calls</li>
+          <li class="pricing-card__feature"><span class="check">✓</span> 6 months priority support</li>
+        </ul>
+        <a href="#audit" class="btn btn--outline-digital" style="width:100%;justify-content:center">Get Started →</a>
+      </div>
+
+    </div>
+
+    <p style="text-align:center;margin-top:2rem;font-size:var(--fs-sm);color:var(--brand-gray)">
+      Not sure which plan fits? <a href="#audit" style="color:var(--digital-primary);font-weight:600">Get a free audit</a> and we'll recommend the right one for your business.
+    </p>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     TESTIMONIALS — Digital
+════════════════════════════════════════════════ -->
+<section class="section section--digital-light" aria-labelledby="digital-reviews-heading">
+  <div class="container">
+    <div class="section-header section-header--center">
+      <span class="section-label section-label--digital animate-in">Client Reviews</span>
+      <h2 id="digital-reviews-heading" class="section-title animate-in animate-delay-1">Businesses That Trust Us</h2>
+    </div>
+
+    <div class="grid grid--3" style="gap:1.5rem">
+
+      <div class="testimonial-card testimonial-card--digital animate-in">
+        <div class="stars" aria-label="5 stars">★★★★★</div>
+        <p class="testimonial-card__quote">Ranked #1 on Google Maps within 4 weeks. The ROI from new patients alone covered the entire cost in the first month.</p>
+        <div class="testimonial-card__author">
+          <div class="testimonial-card__avatar" style="background:var(--digital-gradient)" aria-hidden="true">P</div>
+          <div>
+            <div class="testimonial-card__name">Dr. Priya Sharma</div>
+            <div class="testimonial-card__role">Sharma Dental Clinic</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card testimonial-card--digital animate-in animate-delay-1">
+        <div class="stars" aria-label="5 stars">★★★★★</div>
+        <p class="testimonial-card__quote">Our new website looks incredible and loads in under 2 seconds. Organic traffic is up 300% in three months. Highly recommend.</p>
+        <div class="testimonial-card__author">
+          <div class="testimonial-card__avatar" style="background:var(--digital-gradient)" aria-hidden="true">V</div>
+          <div>
+            <div class="testimonial-card__name">Vikram Gupta</div>
+            <div class="testimonial-card__role">Gupta Kirana Store, Noida</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card testimonial-card--digital animate-in animate-delay-2">
+        <div class="stars" aria-label="5 stars">★★★★★</div>
+        <p class="testimonial-card__quote">We had zero online presence. Now we get 20+ enquiries a month from Google. The team is responsive and genuinely cares about results.</p>
+        <div class="testimonial-card__author">
+          <div class="testimonial-card__avatar" style="background:var(--digital-gradient)" aria-hidden="true">A</div>
+          <div>
+            <div class="testimonial-card__name">Adv. Anita Verma</div>
+            <div class="testimonial-card__role">Verma Law Associates</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Client logo strip -->
+    <div style="margin-top:3rem;text-align:center">
+      <p style="font-size:var(--fs-sm);color:var(--brand-gray);margin-bottom:1.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em">Trusted By</p>
+      <div class="logo-strip">
+        <div class="logo-strip__item">Sharma Clinic</div>
+        <div class="logo-strip__item">Gupta Kirana</div>
+        <div class="logo-strip__item">Verma Law</div>
+        <div class="logo-strip__item">TechStart Co.</div>
+        <div class="logo-strip__item">Fitness Hub</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     FREE AUDIT FORM
+════════════════════════════════════════════════ -->
+<section class="section section--dark" id="audit" aria-labelledby="audit-heading">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr 1.1fr;gap:4rem;align-items:start" class="audit-grid">
+
+      <!-- Info side -->
+      <div class="animate-in animate-in--left">
+        <span class="section-label section-label--white">Free Offer</span>
+        <h2 id="audit-heading" class="section-title section-title--white" style="margin-block:1rem 1.5rem">
+          Get Your Free Website Audit 🎯
+        </h2>
+        <p class="section-subtitle section-subtitle--white" style="margin-bottom:2.5rem">
+          In 24 hours we'll review your website, Google Maps listing, and SEO — then send you a detailed report showing exactly what's holding you back.
+        </p>
+
+        <div style="display:flex;flex-direction:column;gap:1.25rem">
+          <div style="display:flex;align-items:center;gap:1rem">
+            <div style="width:36px;height:36px;background:rgba(67,97,238,0.2);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1rem" aria-hidden="true">✓</div>
+            <span style="color:rgba(255,255,255,0.8);font-size:var(--fs-sm)">Website speed & performance analysis</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:1rem">
+            <div style="width:36px;height:36px;background:rgba(67,97,238,0.2);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1rem" aria-hidden="true">✓</div>
+            <span style="color:rgba(255,255,255,0.8);font-size:var(--fs-sm)">Google Maps ranking & GMB health check</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:1rem">
+            <div style="width:36px;height:36px;background:rgba(67,97,238,0.2);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1rem" aria-hidden="true">✓</div>
+            <span style="color:rgba(255,255,255,0.8);font-size:var(--fs-sm)">Top keyword opportunities for your niche</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:1rem">
+            <div style="width:36px;height:36px;background:rgba(67,97,238,0.2);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1rem" aria-hidden="true">✓</div>
+            <span style="color:rgba(255,255,255,0.8);font-size:var(--fs-sm)">Competitor gap analysis</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:1rem">
+            <div style="width:36px;height:36px;background:rgba(67,97,238,0.2);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1rem" aria-hidden="true">✓</div>
+            <span style="color:rgba(255,255,255,0.8);font-size:var(--fs-sm)">100% free — no strings attached</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Audit Form -->
+      <div class="animate-in animate-in--right animate-delay-1">
+        <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:var(--radius-xl);padding:2.5rem">
+          <h3 style="color:white;font-size:var(--fs-xl);margin-bottom:1.5rem">Request Your Free Audit</h3>
+          <form id="auditForm" novalidate aria-label="Free website audit request form">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="audit-name" style="color:rgba(255,255,255,0.8)">Your Name *</label>
+                <input class="form-input" type="text" id="audit-name" name="name" placeholder="Your Name" required autocomplete="name"
+                  style="background:rgba(255,255,255,0.06);border-color:rgba(255,255,255,0.1);color:white" />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="audit-phone" style="color:rgba(255,255,255,0.8)">Phone *</label>
+                <input class="form-input" type="tel" id="audit-phone" name="phone" placeholder="+91 98765 XXXXX" required autocomplete="tel"
+                  style="background:rgba(255,255,255,0.06);border-color:rgba(255,255,255,0.1);color:white" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="audit-email" style="color:rgba(255,255,255,0.8)">Business Email *</label>
+              <input class="form-input" type="email" id="audit-email" name="email" placeholder="you@yourbusiness.com" required autocomplete="email"
+                style="background:rgba(255,255,255,0.06);border-color:rgba(255,255,255,0.1);color:white" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="audit-website" style="color:rgba(255,255,255,0.8)">Website URL</label>
+              <input class="form-input" type="url" id="audit-website" name="website" placeholder="https://yourbusiness.com"
+                style="background:rgba(255,255,255,0.06);border-color:rgba(255,255,255,0.1);color:white" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="audit-business" style="color:rgba(255,255,255,0.8)">Business Type *</label>
+              <select class="form-select" id="audit-business" name="business_type" required
+                style="background:rgba(255,255,255,0.06);border-color:rgba(255,255,255,0.1);color:white">
+                <option value="">Select your industry…</option>
+                <option value="healthcare">Healthcare / Clinic</option>
+                <option value="restaurant">Restaurant / Food</option>
+                <option value="retail">Retail / Shop</option>
+                <option value="legal">Legal / Consultancy</option>
+                <option value="education">Education / Coaching</option>
+                <option value="real-estate">Real Estate</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="audit-goal" style="color:rgba(255,255,255,0.8)">Primary Goal</label>
+              <textarea class="form-textarea" id="audit-goal" name="goal" rows="3" placeholder="e.g. Rank #1 on Google Maps, get more website leads, revamp my brand…"
+                style="background:rgba(255,255,255,0.06);border-color:rgba(255,255,255,0.1);color:white"></textarea>
+            </div>
+            <button type="submit" class="btn btn--digital btn--lg" style="width:100%;justify-content:center">
+              Get My Free Audit 🎯
+            </button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ════════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════ -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="footer__logo" aria-label="Minuite Pe Home">
+          <div class="footer__logo-icon" aria-hidden="true">⚡</div>
+          <span class="footer__logo-text">Minuite<span>Pe</span></span>
+        </a>
+        <p class="footer__tagline">Late-night food delivery and digital agency — one brand, two missions.</p>
+        <div class="footer__social" role="list" aria-label="Social media links">
+          <a href="https://instagram.com/minuitepe" class="footer__social-link" aria-label="Instagram" rel="noopener noreferrer" target="_blank">📷</a>
+          <a href="https://facebook.com/minuitepe" class="footer__social-link" aria-label="Facebook" rel="noopener noreferrer" target="_blank">📘</a>
+          <a href="https://wa.me/91XXXXXXXXXX" class="footer__social-link" aria-label="WhatsApp" rel="noopener noreferrer" target="_blank">💬</a>
+        </div>
+      </div>
+      <div>
+        <h3 class="footer__col-title">💻 Digital Agency</h3>
+        <nav class="footer__links" aria-label="Digital agency links">
+          <a href="#services">Our Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#audit">Free Website Audit</a>
+          <a href="#process">Our Process</a>
+        </nav>
+      </div>
+      <div>
+        <h3 class="footer__col-title">🍔 Food Delivery</h3>
+        <nav class="footer__links" aria-label="Food delivery links">
+          <a href="food.html">Order Food</a>
+          <a href="food.html#menu">Browse Menu</a>
+          <a href="food.html#partners">Partner Restaurants</a>
+        </nav>
+      </div>
+      <div>
+        <h3 class="footer__col-title">Company</h3>
+        <nav class="footer__links" aria-label="Company links">
+          <a href="about.html">About Us</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms</a>
+        </nav>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2026 Minuite Pe Digital. All rights reserved.</p>
+      <div class="footer__bottom-links">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/91XXXXXXXXXX" class="whatsapp-float" aria-label="Chat on WhatsApp" rel="noopener noreferrer" target="_blank">💬</a>
+<button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
+
+

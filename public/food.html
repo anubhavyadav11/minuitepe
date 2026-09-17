@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- ── Primary SEO ── -->
+  <title>Minuite Pe Food — Night Food Delivery 8 PM to 4 AM | Order Online</title>
+  <meta name="description" content="Order food online from Minuite Pe Food. Late-night delivery from 8 PM to 4 AM. Fast food, snacks, beverages delivered hot in 30–45 minutes. Order now!" />
+  <meta name="keywords" content="night food delivery, late night food order, midnight delivery, food delivery 8pm 4am, Minuite Pe Food, order food online" />
+  <meta name="author" content="Minuite Pe" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.minuitepe.com/food.html" />
+
+  <!-- ── Open Graph ── -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.minuitepe.com/food.html" />
+  <meta property="og:title" content="Minuite Pe Food — Night Food Delivery 8 PM–4 AM" />
+  <meta property="og:description" content="Hungry after midnight? Minuite Pe Food delivers hot meals from 8 PM to 4 AM. Order online now!" />
+  <meta property="og:image" content="https://www.minuitepe.com/images/og-food.jpg" />
+
+  <!-- ── Twitter Card ── -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Minuite Pe Food — Night Delivery 8 PM–4 AM" />
+  <meta name="twitter:description" content="Order food at midnight! Hot delivery in 30–45 mins." />
+
+  <!-- ── PWA ── -->
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#ff6b35" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Minuite Pe Food" />
+
+  <!-- ── Fonts ── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- ── Stylesheet ── -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- ── Schema: Food Delivery LocalBusiness ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodEstablishment",
+    "@id": "https://www.minuitepe.com/food.html#food",
+    "name": "Minuite Pe Food",
+    "description": "Night-time food delivery service operating from 8:00 PM to 4:00 AM, delivering fast food, snacks, and beverages.",
+    "url": "https://www.minuitepe.com/food.html",
+    "telephone": "+91-XXXXXXXXXX",
+    "openingHours": "Mo-Su 20:00-04:00",
+    "servesCuisine": ["Fast Food", "Snacks", "Beverages", "Desserts"],
+    "priceRange": "₹₹",
+    "hasMenu": "https://www.minuitepe.com/food.html#menu",
+    "image": "https://www.minuitepe.com/images/og-food.jpg",
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Minuite Pe",
+      "url": "https://www.minuitepe.com"
+    }
+  }
+  </script>
+</head>
+
+<body>
+
+<!-- ════════════════════════════════════════════════
+     NAVBAR
+════════════════════════════════════════════════ -->
+<header role="banner">
+  <nav class="navbar" id="navbar" aria-label="Main navigation">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo" aria-label="Minuite Pe Home">
+        <div class="navbar__logo-icon" aria-hidden="true">⚡</div>
+        <span class="navbar__logo-text">Minuite<span>Pe</span></span>
+      </a>
+
+      <ul class="navbar__nav" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li class="navbar__dropdown" role="listitem">
+          <button class="navbar__dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Services
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="navbar__dropdown-menu" role="menu">
+            <a href="food.html" role="menuitem"><span class="drop-icon drop-icon--food">🍔</span>Food Delivery</a>
+            <a href="digital.html" role="menuitem"><span class="drop-icon drop-icon--digital">💻</span>Digital Services</a>
+          </div>
+        </li>
+        <li><a href="food.html" class="active" aria-current="page">Food Delivery</a></li>
+        <li><a href="digital.html">Digital Agency</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li><li><a href="login.html" style="font-weight:600;color:var(--digital-primary)">Login</a></li>
+      </ul>
+
+      <div class="navbar__cta">
+        <a href="#order" class="btn btn--food btn--sm">Order Now 🍕</a>
+        <a href="digital.html" class="btn btn--outline-white btn--sm">Digital →</a>
+      </div>
+
+      <button class="navbar__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="navbar__mobile" id="mobileNav" role="navigation" aria-label="Mobile navigation">
+    <a href="index.html">🏠 Home</a>
+    <a href="food.html">🍔 Food Delivery</a>
+    <a href="digital.html">💻 Digital Agency</a>
+    <div class="navbar__mobile-divider"></div>
+    <a href="about.html">👥 About Us</a>
+    <a href="contact.html">📞 Contact</a>
+    <div class="navbar__mobile-divider"></div>
+    <a href="#order" class="btn btn--food" style="margin-top:0.5rem">Order Now 🍕</a>
+  </div>
+</header>
+
+<main id="main-content">
+
+<!-- ════════════════════════════════════════════════
+     HERO — Food
+════════════════════════════════════════════════ -->
+<section class="hero hero--clean" id="order" aria-labelledby="food-hero-heading" style="padding-top: calc(var(--navbar-height) + 4rem); min-height: 70vh;">
+  <div class="hero__bg">
+    <!-- Clean background, no orbs -->
+  </div>
+
+  <div class="container hero__content">
+    <div style="max-width:700px">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>›</span>
+        <span>Food Delivery</span>
+      </div>
+
+      <!-- Live status -->
+      <div id="food-status" style="margin-bottom:1.5rem"></div>
+
+      <h1 id="food-hero-heading" class="animate-in" style="font-size:var(--fs-hero);margin-bottom:1.5rem">
+        Hungry at<br>
+        <span style="color:var(--food-primary)">Midnight?</span><br>
+        We Deliver.
+      </h1>
+
+      <p class="animate-in animate-delay-1" style="font-size:var(--fs-xl);color:var(--brand-gray);max-width:520px;line-height:1.7;margin-bottom:2.5rem">
+        Hot food delivered to your door from <strong style="color:var(--food-primary)">8:00 PM to 4:00 AM</strong>, seven days a week. Because hunger doesn't follow office hours.
+      </p>
+
+      <div class="flex flex--gap animate-in animate-delay-2" style="flex-wrap:wrap;margin-bottom:3rem">
+        <a href="#menu" class="btn btn--food btn--xl">Browse Menu</a>
+        <a href="#how-it-works" class="btn btn--outline btn--xl">How It Works</a>
+      </div>
+
+      <!-- Quick stats -->
+      <div class="animate-in animate-delay-3" style="display:flex;gap:2rem;flex-wrap:wrap">
+        <div style="text-align:center">
+          <div style="font-size:var(--fs-2xl);font-weight:800;color:var(--food-primary)">30–45</div>
+          <div style="font-size:var(--fs-xs);color:var(--brand-gray)">Min delivery</div>
+        </div>
+        <div style="width:1px;background:var(--brand-light-gray)"></div>
+        <div style="text-align:center">
+          <div style="font-size:var(--fs-2xl);font-weight:800;color:var(--food-primary)">50+</div>
+          <div style="font-size:var(--fs-xs);color:var(--brand-gray)">Menu items</div>
+        </div>
+        <div style="width:1px;background:var(--brand-light-gray)"></div>
+        <div style="text-align:center">
+          <div style="font-size:var(--fs-2xl);font-weight:800;color:var(--food-primary)">₹0</div>
+          <div style="font-size:var(--fs-xs);color:var(--brand-gray)">Delivery fee on 1st order</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     MENU / CATEGORIES
+════════════════════════════════════════════════ -->
+<section class="section" id="menu" aria-labelledby="menu-heading">
+  <div class="container">
+    <div class="section-header section-header--center">
+      <span class="section-label section-label--food animate-in">Our Menu</span>
+      <h2 id="menu-heading" class="section-title animate-in animate-delay-1">What's Cooking Tonight?</h2>
+      <p class="section-subtitle section-subtitle--center animate-in animate-delay-2">
+        Fresh, hot, and ready when you are. From quick bites to full meals.
+      </p>
+    </div>
+
+    <!-- Category tabs -->
+    <div class="menu-tabs animate-in" style="display:flex;gap:0.75rem;flex-wrap:wrap;justify-content:center;margin-bottom:3rem" role="tablist" aria-label="Menu categories">
+      <button class="menu-tab active btn btn--food btn--sm" data-category="all" role="tab" aria-selected="true">All Items</button>
+      <button class="menu-tab btn btn--outline-food btn--sm" data-category="fastfood" role="tab" aria-selected="false">🍔 Fast Food</button>
+      <button class="menu-tab btn btn--outline-food btn--sm" data-category="snacks" role="tab" aria-selected="false">🍟 Snacks</button>
+      <button class="menu-tab btn btn--outline-food btn--sm" data-category="beverages" role="tab" aria-selected="false">🥤 Beverages</button>
+      <button class="menu-tab btn btn--outline-food btn--sm" data-category="desserts" role="tab" aria-selected="false">🍨 Desserts</button>
+      <button class="menu-tab btn btn--outline-food btn--sm" data-category="meals" role="tab" aria-selected="false">🍱 Full Meals</button>
+    </div>
+
+    <!-- Menu items grid -->
+    <div class="grid grid--4 menu-grid" id="menuGrid" style="gap:1.5rem" role="tabpanel" aria-label="Menu items">
+
+      <!-- Fast Food -->
+      <article class="card menu-item animate-in" data-category="fastfood">
+        <div class="card__img-bg" style="background-image: url('images/food_burger.jpg');"></div>
+        <div class="card__body">
+          <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:0.5rem">
+            <h3 style="font-size:var(--fs-base);font-weight:700">Classic Burger</h3>
+            <span class="tag tag--food">Fast Food</span>
+          </div>
+          <p style="font-size:var(--fs-sm);color:var(--brand-gray);margin-bottom:1rem">Juicy beef patty, fresh veggies, special sauce, sesame bun.</p>
+          <div class="mt-auto" style="display:flex;justify-content:space-between;align-items:center">
+            <span style="font-size:var(--fs-lg);font-weight:800;color:var(--food-primary)">₹149</span>
+            <button class="btn btn--food btn--sm add-to-cart" data-item="Classic Burger" data-price="149" aria-label="Add Classic Burger to cart">+ Add</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card menu-item animate-in animate-delay-1" data-category="fastfood">
+        <div class="card__img-bg" style="background-image: url('images/food_pizza.jpg');"></div>
+        <div class="card__body">
+          <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:0.5rem">
+            <h3 style="font-size:var(--fs-base);font-weight:700">Margherita Pizza</h3>
+            <span class="tag tag--food">Fast Food</span>
+          </div>
+          <p style="font-size:var(--fs-sm);color:var(--brand-gray);margin-bottom:1rem">Hand-tossed base, fresh mozzarella, basil, tomato sauce.</p>
+          <div class="mt-auto" style="display:flex;justify-content:space-between;align-items:center">
+            <span style="font-size:var(--fs-lg);font-weight:800;color:var(--food-primary)">₹249</span>
+            <button class="btn btn--food btn--sm add-to-cart" data-item="Margherita Pizza" data-price="249" aria-label="Add Margherita Pizza to cart">+ Add</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card menu-item animate-in animate-delay-2" data-category="fastfood">
+        <div class="card__img-bg" style="background-image: url('https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500&q=80');"></div>
+        <div class="card__body">
+          <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:0.5rem">
+            <h3 style="font-size:var(--fs-base);font-weight:700">Grilled Wrap</h3>
+            <span class="tag tag--food">Fast Food</span>
+          </div>
+          <p style="font-size:var(--fs-sm);color:var(--brand-gray);margin-bottom:1rem">Grilled chicken or paneer, veggies, mayo, tortilla wrap.</p>
+          <div class="mt-auto" style="display:flex;justify-content:space-between;align-items:center">
+            <span style="font-size:var(--fs-lg);font-weight:800;color:var(--food-primary)">₹129</span>
+            <button class="btn btn--food btn--sm add-to-cart" data-item="Grilled Wrap" data-price="129" aria-label="Add Grilled Wrap to cart">+ Add</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Snacks -->
+      <article class="card menu-item animate-in animate-delay-1" data-category="snacks">
+        <div class="card__img-bg" style="background-image: url('images/food_fries.jpg');"></div>
+        <div class="card__body">
+          <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:0.5rem">
+            <h3 style="font-size:var(--fs-base);font-weight:700">Loaded Fries</h3>
+            <span class="tag tag--food">Snacks</span>
+          </div>
+          <p style="font-size:var(--fs-sm);color:var(--brand-gray);margin-bottom:1rem">Crispy fries with cheese sauce, jalapeños, and sour cream.</p>
+          <div class="mt-auto" style="display:flex;justify-content:space-between;align-items:center">
+            <span style="font-size:var(--fs-lg);font-weight:800;color:var(--food-primary)">₹99</span>
+            <button class="btn btn--food btn--sm add-to-cart" data-item="Loaded Fries" data-price="99" aria-label="Add Loaded Fries to cart">+ Add</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card menu-item animate-in animate-delay-2" data-category="snacks">
+        <div class="card__img-bg" style="background-image: url('https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=80');"></div>
+        <div class="card__body">
+          <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:0.5rem">
+            <h3 style="font-size:var(--fs-base);font-weight:700">Crispy Samosas (4 pcs)</h3>
+            <span class="tag tag--food">Snacks</span>
+          </div>
+          <p style="font-size:var(--fs-sm);color:var(--brand-gray);margin-bottom:1rem">Freshly fried samosas with spiced potato filling and chutneys.</p>
+          <div class="mt-auto" style="display:flex;justify-content:space-between;align-items:center">
+            <span style="font-size:var(--fs-lg);font-weight:800;color:var(--food-primary)">₹69</span>
+            <button class="btn btn--food btn--sm add-to-cart" data-item="Crispy Samosas" data-price="69" aria-label="Add Crispy Samosas to cart">+ Add</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Beverages -->
+      <article class="card menu-item animate-in animate-delay-1" data-category="beverages">
+        <div class="card__img-bg" style="background-image: url('https://images.unsplash.com/photo-1461023058943-0708e528a475?w=500&q=80');"></div>
+        <div class="card__body">
+          <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:0.5rem">
+            <h3 style="font-size:var(--fs-base);font-weight:700">Cold Coffee</h3>
+            <span class="tag tag--food">Beverages</span>
+          </div>
+          <p style="font-size:var(--fs-sm);color:var(--brand-gray);margin-bottom:1rem">Rich, creamy cold coffee with whipped cream. Chilled and refreshing.</p>
+          <div class="mt-auto" style="display:flex;justify-content:space-between;align-items:center">
+            <span style="font-size:var(--fs-lg);font-weight:800;color:var(--food-primary)">₹89</span>
+            <button class="btn btn--food btn--sm add-to-cart" data-item="Cold Coffee" data-price="89" aria-label="Add Cold Coffee to cart">+ Add</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card menu-item animate-in animate-delay-2" data-category="beverages">
+        <div class="card__img-bg" style="background-image: url('https://images.unsplash.com/photo-1572490122747-3968b75bb827?w=500&q=80');"></div>
+        <div class="card__body">
+          <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:0.5rem">
+            <h3 style="font-size:var(--fs-base);font-weight:700">Strawberry Shake</h3>
+            <span class="tag tag--food">Beverages</span>
+          </div>
+          <p style="font-size:var(--fs-sm);color:var(--brand-gray);margin-bottom:1rem">Thick, creamy milkshake with real strawberries. Pure comfort.</p>
+          <div class="mt-auto" style="display:flex;justify-content:space-between;align-items:center">
+            <span style="font-size:var(--fs-lg);font-weight:800;color:var(--food-primary)">₹109</span>
+            <button class="btn btn--food btn--sm add-to-cart" data-item="Strawberry Shake" data-price="109" aria-label="Add Strawberry Shake to cart">+ Add</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Desserts -->
+      <article class="card menu-item animate-in animate-delay-1" data-category="desserts">
+        <div class="card__img-bg" style="background-image: url('https://images.unsplash.com/photo-1563805042-7684c8e9e5cb?w=500&q=80');"></div>
+        <div class="card__body">
+          <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:0.5rem">
+            <h3 style="font-size:var(--fs-base);font-weight:700">Sundae Delight</h3>
+            <span class="tag tag--food">Desserts</span>
+          </div>
+          <p style="font-size:var(--fs-sm);color:var(--brand-gray);margin-bottom:1rem">Vanilla ice cream, hot fudge, sprinkles, and a cherry on top.</p>
+          <div class="mt-auto" style="display:flex;justify-content:space-between;align-items:center">
+            <span style="font-size:var(--fs-lg);font-weight:800;color:var(--food-primary)">₹119</span>
+            <button class="btn btn--food btn--sm add-to-cart" data-item="Sundae Delight" data-price="119" aria-label="Add Sundae Delight to cart">+ Add</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Full Meals -->
+      <article class="card menu-item animate-in animate-delay-2" data-category="meals">
+        <div class="card__img-bg" style="background-image: url('images/food_thali.jpg');"></div>
+        <div class="card__body">
+          <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:0.5rem">
+            <h3 style="font-size:var(--fs-base);font-weight:700">Midnight Thali</h3>
+            <span class="tag tag--food">Full Meals</span>
+          </div>
+          <p style="font-size:var(--fs-sm);color:var(--brand-gray);margin-bottom:1rem">Rice, dal, two sabzis, roti, raita. Full home-style meal at midnight.</p>
+          <div class="mt-auto" style="display:flex;justify-content:space-between;align-items:center">
+            <span style="font-size:var(--fs-lg);font-weight:800;color:var(--food-primary)">₹199</span>
+            <button class="btn btn--food btn--sm add-to-cart" data-item="Midnight Thali" data-price="199" aria-label="Add Midnight Thali to cart">+ Add</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination animate-in" aria-label="Menu Pagination">
+      <button class="pagination__btn" disabled aria-label="Previous page">←</button>
+      <button class="pagination__btn active" aria-label="Page 1" aria-current="page">1</button>
+      <button class="pagination__btn" aria-label="Page 2">2</button>
+      <button class="pagination__btn" aria-label="Page 3">3</button>
+      <button class="pagination__btn" aria-label="Next page">→</button>
+    </div>
+
+    <!-- Cart summary -->
+    <div id="cartSummary" style="display:none;margin-top:2rem;background:var(--food-light);border:2px solid var(--food-primary);border-radius:var(--radius-xl);padding:1.5rem;text-align:center" role="region" aria-live="polite" aria-label="Cart summary">
+      <p style="font-size:var(--fs-lg);font-weight:700;color:var(--brand-primary);margin-bottom:1rem">
+        🛒 Cart: <span id="cartCount">0</span> item(s) — ₹<span id="cartTotal">0</span>
+      </p>
+      <button class="btn btn--food btn--lg" id="placeOrder" aria-label="Place order">Place Order via WhatsApp 💬</button>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     HOW IT WORKS
+════════════════════════════════════════════════ -->
+<section class="section section--food-light" id="how-it-works" aria-labelledby="how-heading">
+  <div class="container">
+    <div class="section-header section-header--center">
+      <span class="section-label section-label--food animate-in">Simple Process</span>
+      <h2 id="how-heading" class="section-title animate-in animate-delay-1">Order in 3 Easy Steps</h2>
+    </div>
+
+    <div class="steps steps--connected animate-in" role="list">
+      <div class="step" role="listitem">
+        <div class="step__number step__number--food" aria-hidden="true">1</div>
+        <div class="step__icon" aria-hidden="true">📱</div>
+        <h3 class="step__title">Place Your Order</h3>
+        <p class="step__desc">Browse the menu, add items to your cart, and place your order in under 2 minutes. Available 8 PM–4 AM every night.</p>
+      </div>
+      <div class="step" role="listitem">
+        <div class="step__number step__number--food" aria-hidden="true">2</div>
+        <div class="step__icon" aria-hidden="true">🏍️</div>
+        <h3 class="step__title">We Prepare & Dispatch</h3>
+        <p class="step__desc">Your order goes to the nearest partner restaurant. Fresh prep, then our rider picks it up and heads your way.</p>
+      </div>
+      <div class="step" role="listitem">
+        <div class="step__number step__number--food" aria-hidden="true">3</div>
+        <div class="step__icon" aria-hidden="true">🍽️</div>
+        <h3 class="step__title">Delivered Hot to You</h3>
+        <p class="step__desc">Track your order live. Hot food at your door in 30–45 minutes. No more hunger pangs after midnight.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     DELIVERY AREA
+════════════════════════════════════════════════ -->
+<section class="section" id="delivery-area" aria-labelledby="area-heading">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center" class="area-grid">
+      <div class="animate-in animate-in--left">
+        <span class="section-label section-label--food">Delivery Coverage</span>
+        <h2 id="area-heading" class="section-title" style="margin-block:0.5rem 1rem">Where We Deliver</h2>
+        <p style="font-size:var(--fs-md);color:var(--brand-gray);margin-bottom:2rem">
+          We're expanding fast! Currently delivering across major areas in the city. More zones added every week.
+        </p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;margin-bottom:2rem">
+          <div style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm);font-weight:500">
+            <span style="color:var(--food-primary)">📍</span> Central District
+          </div>
+          <div style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm);font-weight:500">
+            <span style="color:var(--food-primary)">📍</span> North Zone
+          </div>
+          <div style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm);font-weight:500">
+            <span style="color:var(--food-primary)">📍</span> South Zone
+          </div>
+          <div style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm);font-weight:500">
+            <span style="color:var(--food-primary)">📍</span> East Side
+          </div>
+          <div style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm);font-weight:500">
+            <span style="color:var(--food-primary)">📍</span> West Side
+          </div>
+          <div style="display:flex;align-items:center;gap:0.5rem;font-size:var(--fs-sm);color:var(--brand-gray)">
+            ➕ More coming soon
+          </div>
+        </div>
+        <a href="contact.html" class="btn btn--food">Check My Area</a>
+      </div>
+      <div class="animate-in animate-in--right">
+        <div class="map-wrapper">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.95105064697!2d76.76357418!3d28.64428745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sDelhi%2C%20India!5e0!3m2!1sen!2sin!4v1234567890"
+            width="100%" height="350"
+            style="border:0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Minuite Pe Food delivery area map"
+            aria-label="Map showing food delivery areas">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     RESTAURANT PARTNERS
+════════════════════════════════════════════════ -->
+<section class="section section--dark" id="partners" aria-labelledby="partners-heading">
+  <div class="container">
+    <div class="section-header section-header--center">
+      <span class="section-label section-label--white animate-in">Our Partners</span>
+      <h2 id="partners-heading" class="section-title section-title--white animate-in animate-delay-1">Restaurants We Work With</h2>
+      <p class="section-subtitle section-subtitle--white section-subtitle--center animate-in animate-delay-2">
+        Curated, verified local restaurants ensuring quality every time.
+      </p>
+    </div>
+
+    <!-- Partner logos (placeholder) -->
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1.5rem;margin-bottom:4rem">
+      <div class="animate-in" style="background:rgba(255,255,255,0.05);border-radius:var(--radius-md);padding:1.5rem;text-align:center;border:1px solid rgba(255,255,255,0.08)">
+        <div style="font-size:2rem;margin-bottom:0.5rem" aria-hidden="true">🍛</div>
+        <div style="color:rgba(255,255,255,0.7);font-size:var(--fs-sm);font-weight:600">Spice Garden</div>
+      </div>
+      <div class="animate-in animate-delay-1" style="background:rgba(255,255,255,0.05);border-radius:var(--radius-md);padding:1.5rem;text-align:center;border:1px solid rgba(255,255,255,0.08)">
+        <div style="font-size:2rem;margin-bottom:0.5rem" aria-hidden="true">🍔</div>
+        <div style="color:rgba(255,255,255,0.7);font-size:var(--fs-sm);font-weight:600">Burger Nation</div>
+      </div>
+      <div class="animate-in animate-delay-2" style="background:rgba(255,255,255,0.05);border-radius:var(--radius-md);padding:1.5rem;text-align:center;border:1px solid rgba(255,255,255,0.08)">
+        <div style="font-size:2rem;margin-bottom:0.5rem" aria-hidden="true">🍕</div>
+        <div style="color:rgba(255,255,255,0.7);font-size:var(--fs-sm);font-weight:600">Pizza Palace</div>
+      </div>
+      <div class="animate-in animate-delay-3" style="background:rgba(255,255,255,0.05);border-radius:var(--radius-md);padding:1.5rem;text-align:center;border:1px solid rgba(255,255,255,0.08)">
+        <div style="font-size:2rem;margin-bottom:0.5rem" aria-hidden="true">🧋</div>
+        <div style="color:rgba(255,255,255,0.7);font-size:var(--fs-sm);font-weight:600">The Shake Bar</div>
+      </div>
+      <div class="animate-in animate-delay-1" style="background:rgba(255,255,255,0.05);border-radius:var(--radius-md);padding:1.5rem;text-align:center;border:1px solid rgba(255,255,255,0.08)">
+        <div style="font-size:2rem;margin-bottom:0.5rem" aria-hidden="true">🍜</div>
+        <div style="color:rgba(255,255,255,0.7);font-size:var(--fs-sm);font-weight:600">Noodle House</div>
+      </div>
+      <div class="animate-in animate-delay-2" style="background:rgba(255,255,255,0.05);border-radius:var(--radius-md);padding:1.5rem;text-align:center;border:1px solid rgba(255,255,255,0.08)">
+        <div style="font-size:2rem;margin-bottom:0.5rem" aria-hidden="true">🥗</div>
+        <div style="color:rgba(255,255,255,0.7);font-size:var(--fs-sm);font-weight:600">Fresh Bowl</div>
+      </div>
+    </div>
+
+    <!-- List your restaurant CTA -->
+    <div id="list-your-restaurant" style="background:rgba(255,107,53,0.1);border:1px solid rgba(255,107,53,0.3);border-radius:var(--radius-xl);padding:3rem;text-align:center" class="animate-in">
+      <div style="font-size:3rem;margin-bottom:1rem" aria-hidden="true">🏪</div>
+      <h3 style="color:white;font-size:var(--fs-2xl);margin-bottom:1rem">Own a Restaurant?</h3>
+      <p style="color:rgba(255,255,255,0.7);max-width:520px;margin:0 auto 2rem;font-size:var(--fs-md)">
+        List your restaurant on Minuite Pe Food and reach thousands of hungry night owls. Zero listing fee to get started.
+      </p>
+      <a href="contact.html" class="btn btn--food btn--xl">Partner With Us →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     APP DOWNLOAD / ORDER CTA
+════════════════════════════════════════════════ -->
+<section class="section" style="background:var(--food-gradient)" aria-labelledby="app-heading">
+  <div class="container text-center">
+    <div style="max-width:600px;margin:0 auto" class="animate-in">
+      <div style="font-size:4rem;margin-bottom:1rem" aria-hidden="true">📱</div>
+      <h2 id="app-heading" style="color:white;font-size:var(--fs-3xl);margin-bottom:1rem">Order Even Faster</h2>
+      <p style="color:rgba(255,255,255,0.85);font-size:var(--fs-lg);margin-bottom:2.5rem">
+        WhatsApp us your order directly or use our web app. Fast, simple, and no sign-up needed.
+      </p>
+      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
+        <a href="https://wa.me/91XXXXXXXXXX" class="btn btn--outline-white btn--xl" rel="noopener noreferrer" target="_blank">
+          💬 Order on WhatsApp
+        </a>
+        <a href="#menu" class="btn btn--xl" style="background:white;color:var(--food-primary)">
+          🍔 Browse Menu
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     TESTIMONIALS — Food
+════════════════════════════════════════════════ -->
+<section class="section section--light" aria-labelledby="food-reviews-heading">
+  <div class="container">
+    <div class="section-header section-header--center">
+      <span class="section-label section-label--food animate-in">Customer Reviews</span>
+      <h2 id="food-reviews-heading" class="section-title animate-in animate-delay-1">Satisfied Night Owls</h2>
+    </div>
+
+    <div class="grid grid--3" style="gap:1.5rem">
+
+      <div class="testimonial-card animate-in">
+        <div class="stars" aria-label="5 stars">★★★★★</div>
+        <p class="testimonial-card__quote">Best thing to happen to my late-night study sessions. Food arrives hot and exactly on time.</p>
+        <div class="testimonial-card__author">
+          <div class="testimonial-card__avatar" aria-hidden="true">R</div>
+          <div>
+            <div class="testimonial-card__name">Rahul Mehta</div>
+            <div class="testimonial-card__role">Engineering Student</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card animate-in animate-delay-1">
+        <div class="stars" aria-label="5 stars">★★★★★</div>
+        <p class="testimonial-card__quote">We order for our office team every time we pull an all-nighter. Never missed a delivery yet.</p>
+        <div class="testimonial-card__author">
+          <div class="testimonial-card__avatar" aria-hidden="true">S</div>
+          <div>
+            <div class="testimonial-card__name">Sneha Patel</div>
+            <div class="testimonial-card__role">Startup Founder</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card animate-in animate-delay-2">
+        <div class="stars" aria-label="4 stars">★★★★☆</div>
+        <p class="testimonial-card__quote">The midnight thali is honestly better than most restaurant dine-ins. Great quality at 2 AM!</p>
+        <div class="testimonial-card__author">
+          <div class="testimonial-card__avatar" aria-hidden="true">A</div>
+          <div>
+            <div class="testimonial-card__name">Arjun Singh</div>
+            <div class="testimonial-card__role">IT Professional</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ════════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════ -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="footer__logo" aria-label="Minuite Pe Home">
+          <div class="footer__logo-icon" aria-hidden="true">⚡</div>
+          <span class="footer__logo-text">Minuite<span>Pe</span></span>
+        </a>
+        <p class="footer__tagline">Late-night food delivery and digital agency — one brand, two missions.</p>
+        <div class="footer__social" role="list" aria-label="Social media links">
+          <a href="https://instagram.com/minuitepe" class="footer__social-link" aria-label="Instagram" rel="noopener noreferrer" target="_blank">📷</a>
+          <a href="https://facebook.com/minuitepe" class="footer__social-link" aria-label="Facebook" rel="noopener noreferrer" target="_blank">📘</a>
+          <a href="https://wa.me/91XXXXXXXXXX" class="footer__social-link" aria-label="WhatsApp" rel="noopener noreferrer" target="_blank">💬</a>
+        </div>
+      </div>
+      <div>
+        <h3 class="footer__col-title">🍔 Food Delivery</h3>
+        <nav class="footer__links" aria-label="Food delivery links">
+          <a href="#menu">Browse Menu</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#delivery-area">Delivery Areas</a>
+          <a href="#partners">Partner Restaurants</a>
+          <a href="#list-your-restaurant">List Your Restaurant</a>
+        </nav>
+      </div>
+      <div>
+        <h3 class="footer__col-title">💻 Digital Agency</h3>
+        <nav class="footer__links" aria-label="Digital agency links">
+          <a href="digital.html">Our Services</a>
+          <a href="digital.html#portfolio">Portfolio</a>
+          <a href="digital.html#pricing">Pricing</a>
+          <a href="digital.html#audit">Free Audit</a>
+        </nav>
+      </div>
+      <div>
+        <h3 class="footer__col-title">Company</h3>
+        <nav class="footer__links" aria-label="Company links">
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms</a>
+        </nav>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2024 Minuite Pe Food. All rights reserved.</p>
+      <div class="footer__bottom-links">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/91XXXXXXXXXX" class="whatsapp-float" aria-label="Order via WhatsApp" rel="noopener noreferrer" target="_blank">💬</a>
+<button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
+
+

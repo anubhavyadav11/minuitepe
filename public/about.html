@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <title>Minuite Pe Blog — Digital Insights & Tech Trends</title>
+  <meta name="description" content="Read the latest insights on digital marketing, SEO, AI automation, and web design from the experts at Minuite Pe." />
+  
+  <link rel="stylesheet" href="css/style.css" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<header role="banner">
+  <nav class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo">
+        <div class="navbar__logo-icon">⚡</div>
+        <span class="navbar__logo-text">Minuite<span>Pe</span></span>
+      </a>
+
+      <ul class="navbar__nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="navbar__dropdown">
+          <button class="navbar__dropdown-toggle">
+            Services <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="navbar__dropdown-menu">
+            <a href="food.html"><span class="drop-icon drop-icon--food">🍔</span>Food Delivery</a>
+            <a href="digital.html"><span class="drop-icon drop-icon--digital">💻</span>Digital Services</a>
+          </div>
+        </li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+
+      <div class="navbar__cta">
+        <a href="digital.html#audit" class="btn btn--digital btn--sm">Free Audit 🚀</a>
+      </div>
+
+      <button class="navbar__hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="navbar__mobile" id="mobileNav">
+    <a href="index.html">🏠 Home</a>
+    <a href="food.html">🍔 Food Delivery</a>
+    <a href="digital.html">💻 Digital Agency</a>
+    <a href="blog.html">📝 Blog</a>
+    <a href="index.html#contact">📞 Contact</a>
+  </div>
+</header>
+
+<main id="main-content" style="min-height: 80vh; display:flex; align-items:center; justify-content:center; padding: 4rem 1rem; background:var(--brand-off-white);">
+  
+  <div class="card animate-in" style="width: 100%; max-width: 450px; padding: 3rem 2rem; border-radius: var(--radius-xl); box-shadow: var(--shadow-xl);">
+    <div style="text-align:center; margin-bottom: 2rem;">
+      <h1 style="font-size: var(--fs-2xl); font-family: var(--font-heading); margin-bottom: 0.5rem; color: var(--brand-primary);">Welcome Back</h1>
+      <p style="color: var(--brand-gray); font-size: var(--fs-sm);">Sign in to access your Minuite Pe account.</p>
+    </div>
+
+    <form id="loginForm" style="display:flex; flex-direction:column; gap: 1.5rem;">
+      <div class="form-group">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" id="email" name="email" class="form-input" placeholder="you@example.com" required>
+      </div>
+
+      <div class="form-group">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <label for="password" class="form-label">Password</label>
+          <a href="#" style="font-size:var(--fs-xs); color:var(--digital-primary); text-decoration:none; font-weight:600;">Forgot password?</a>
+        </div>
+        <input type="password" id="password" name="password" class="form-input" placeholder="••••••••" required>
+      </div>
+
+      <button type="submit" class="btn btn--digital btn--lg" style="width: 100%; justify-content:center; margin-top: 1rem;">
+        Sign In
+      </button>
+    </form>
+
+    <div style="margin-top: 2rem; text-align:center;">
+      <p style="font-size: var(--fs-sm); color: var(--brand-gray);">
+        Don't have an account? <a href="signup.html" style="color:var(--digital-primary); font-weight:600; text-decoration:none;">Sign up</a>
+      </p>
+    </div>
+  </div>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="footer__logo">
+          <div class="footer__logo-icon">⚡</div>
+          <span class="footer__logo-text">Minuite<span>Pe</span></span>
+        </a>
+        <p class="footer__tagline">Late-night food delivery and digital agency — one brand, two missions.</p>
+      </div>
+      <div>
+        <h3 class="footer__col-title">Company</h3>
+        <nav class="footer__links">
+          <a href="index.html#about">About Us</a>
+          <a href="blog.html">Blog</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Minuite Pe. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
+

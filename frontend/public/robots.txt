@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Block utility files
+Disallow: /js/
+Disallow: /images/icons/
+
+Sitemap: https://www.minuitepe.com/sitemap.xml

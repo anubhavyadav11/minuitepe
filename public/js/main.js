@@ -746,3 +746,44 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+/* ---------------------------------------------
+   16. LIVE AUDIT TOOL (digital.html)
+--------------------------------------------- */
+
+window.runLiveAudit = function(e) {
+  e.preventDefault();
+  
+  const form = document.getElementById('liveAuditForm');
+  const urlInput = document.getElementById('audit-url');
+  if(!urlInput.value) return;
+
+  // UI Elements
+  const inputStep = document.getElementById('audit-input-step');
+  const loadingStep = document.getElementById('audit-loading-step');
+  const reportStep = document.getElementById('audit-report-step');
+  const loadingText = document.getElementById('audit-loading-text');
+  const reportUrl = document.getElementById('audit-report-url');
+  
+  // Transition to Loading
+  inputStep.style.display = 'none';
+  loadingStep.style.display = 'block';
+  
+  // Simulate steps
+  setTimeout(() => { loadingText.innerText = 'Analyzing page speed & carousels...'; }, 1000);
+  setTimeout(() => { loadingText.innerText = 'Checking meta tags & SEO health...'; }, 2000);
+  
+  // Finish and show report
+  setTimeout(() => {
+    loadingStep.style.display = 'none';
+    reportStep.style.display = 'block';
+    reportUrl.innerText = "Audit for: " + urlInput.value;
+  }, 3500);
+};
+
+window.resetAudit = function() {
+  document.getElementById('audit-input-step').style.display = 'block';
+  document.getElementById('audit-loading-step').style.display = 'none';
+  document.getElementById('audit-report-step').style.display = 'none';
+  document.getElementById('liveAuditForm').reset();
+};
